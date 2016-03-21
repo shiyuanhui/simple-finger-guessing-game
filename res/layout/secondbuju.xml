@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     >
+    
+    <ImageView
+       android:id="@+id/imag2"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="centerCrop"
+       android:src="@drawable/cat"
+       /> 
+ 
+   <RadioGroup 
+       android:id="@+id/rgroup2"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:orientation="horizontal"
+       android:gravity="center">
+       <RadioButton
+           android:id="@+id/r2button1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="剪刀"/>
+       <RadioButton
+           android:id="@+id/r2button2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="石头"/>
+       <RadioButton
+           android:id="@+id/r2button3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="布"/>   
+   </RadioGroup>
+   <Button 
+       android:id="@+id/secondbujubutton"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/rgroup2"
+       android:text="我也选好啦"
+       
+       />
+
+</RelativeLayout>
